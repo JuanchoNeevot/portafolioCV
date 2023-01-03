@@ -113,6 +113,8 @@ h4{
 .about img{
 	height: auto;
 	width: 430px;
+	display: flex;
+	padding: 100px 10px;
 }
 .about-text{
 	width: 550px;
@@ -166,13 +168,19 @@ button:hover{
 	background: #101010;
 	width: 100%;
 	padding: 100px 0px;
+	text-align: center;
+	align-items: center;
+	display:block;
+	justify-content: center;
 }
 .title h2{
 	color: white;
 	font-size: 75px;
-	width: 1130px;
+	width: 500
+	px;
 	margin: 30px auto;
 	text-align: center;
+	
 }
 .box{
 	display: flex;
@@ -181,12 +189,12 @@ button:hover{
 	min-height: 400px;
 }
 .card{
-	height: 365px;
+	height: 400px;
 	width: 335px;
 	padding: 20px 35px;
 	background: #191919;
 	border-radius: 20px;
-	margin: 15px;
+	margin: 20px;
 	position: relative;
 	overflow: hidden;
 	text-align: center;
@@ -304,3 +312,4 @@ footer p:nth-child(2){
 	bottom: 35px;
 	font-size: 14px; 
 }
+
